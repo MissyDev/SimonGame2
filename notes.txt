@@ -1,0 +1,46 @@
+Extra Code I dont want to look at
+
+
+//This code may not be necessary
+// function keyPress() {
+//   var colorIndex = nextSequence();
+//   // console.log(colorIndex);
+//   var randomChosenColour = buttonColours[colorIndex];
+//   // console.log("randonChosenColor = " + randomChosenColour);
+//   gamePattern.push(randomChosenColour);
+//   // console.log(gamePattern);
+//    $("#" + randomChosenColour).addClass("pressed");   //Works!!
+//    setTimeout(function(){
+//      $("#" + randomChosenColour).removeClass("pressed");
+//    },50);
+//   playSound(randomChosenColour);
+// }
+
+
+// $(document).keypress(function(event){
+//   // keyPress();
+//   nextSequence();
+// })
+
+// Code below this does the same thing but in a longer way
+// $(document).one( "keypress", function() {
+//   nextSequence();
+//   HeaderText();
+//   // alert( "This will be displayed only once." );
+// });
+
+
+
+Document on click
+
+// console.log($(this).attr('id'));
+// alert($(this).attr('id')); // This ls me get the button id
+
+
+Don't think im using this!
+// function correctSequence(userColour){
+//   // playSound(userColour); //play sound of button color
+//   // animatePress(userColour); //animate button pressed
+//   nextSequence();
+//
+// }
